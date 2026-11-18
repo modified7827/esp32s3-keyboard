@@ -1,0 +1,3 @@
+Hello! 按 BOOT 键打出这段文本。{ENTER}
+{DELAY 300}组合键 {CTRL+S} {ALT+F4} {CTRL+ALT+DEL} {GUI+R}{ENTER}
+功能键 {F1} {F12} 方向 {UP} {DOWN} {LEFT} {RIGHT}{ENTER}

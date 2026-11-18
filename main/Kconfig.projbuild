@@ -1,0 +1,19 @@
+menu "BadUSB"
+
+    config BADUSB_LED_GPIO
+        int "状态灯 GPIO（普通 LED，高电平亮；-1 不用。SuperMini 板载灯=48）"
+        default 48
+
+    config BADUSB_BOOT_GPIO
+        int "手动重跑按键 GPIO（低电平有效；-1 不用）"
+        default 0
+
+    config BADUSB_KEY_HOLD_MS
+        int "单次按键按下保持 ms"
+        default 40
+
+    config BADUSB_KEY_GAP_MS
+        int "两次按键间隔 ms"
+        default 30
+
+endmenu
